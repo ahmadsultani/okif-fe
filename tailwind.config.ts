@@ -26,7 +26,7 @@ const config: Config = {
           dark: "#0077BD",
           "dark-hover": "#005F97",
           "dark-active": "#004871",
-          darker: "#005F97",
+          darker: "#003858",
         },
         secondary: {
           black: "#151515",

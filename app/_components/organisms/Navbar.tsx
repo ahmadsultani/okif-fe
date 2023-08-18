@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Logo from "../molecules/Logo";
-import NavbarItems from "../molecules/NavbarItems";
+import Logo from "@molecules/Logo";
+import NavbarItems from "@molecules/NavbarItems";
 
 const Navbar = () => {
   return (

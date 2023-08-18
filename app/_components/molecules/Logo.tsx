@@ -2,7 +2,7 @@ interface LogoProps {
   variant: "primary" | "white";
 }
 
-import OkifLogo from "../atoms/OkifLogo";
+import OkifLogo from "@atoms/OkifLogo";
 
 const Logo = (props: LogoProps) => {
   const textColor =

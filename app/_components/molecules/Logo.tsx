@@ -12,7 +12,7 @@ const Logo = (props: LogoProps) => {
       ? "white"
       : "default";
   return (
-    <section className="flex gap-4 items-center ">
+    <section className="flex gap-4 items-center">
       <OkifLogo size={48} />
       <p className={`text-text-s font-bold text-${textColor} `}>
         ORGANISASI KEMAHASISWAAN INFORMATIKA

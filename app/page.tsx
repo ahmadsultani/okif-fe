@@ -1,11 +1,15 @@
-import Navbar from "@/_components/organisms/Navbar";
-import ProkerSection from "@/_components/organisms/ProkerSection";
-import Footer from "@/_components/organisms/Footer";
+import Footer from "@organisms/Footer";
+import Navbar from "@organisms/Navbar";
+import Hero from "@organisms/Hero";
+import About from "@organisms/About";
+import ProkerSection from "@organisms/ProkerSection";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="flex flex-col min-h-screen w-screen">
       <Navbar />
+      <Hero />
+      <About />
       <ProkerSection />
       <Footer />
     </main>

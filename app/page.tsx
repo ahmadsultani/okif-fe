@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Footer from "./_components/organisms/Footer";
-import Navbar from "./_components/organisms/Navbar";
-import About from "./_components/organisms/About";
+import Footer from "@organisms/Footer";
+import Navbar from "@organisms/Navbar";
+import About from "@organisms/About";
 
 export default function Home() {
   return (

@@ -3,9 +3,9 @@ import OkifLogo from "@atoms/OkifLogo";
 
 const Hero = () => {
   return (
-    <header className="relative h-screen z-10 p-20">
+    <section className="relative w-screen h-screen z-10">
         <Image 
-          src="/image/code.png"
+          src="/image/code.webp"
           alt="hero image"
           fill
           style={{
@@ -22,7 +22,7 @@ const Hero = () => {
             FAKULTAS TEKNIK - UNIVERSITAS HASANUDDIN
           </p>
         </section>
-    </header>
+    </section>
   )
 }
 

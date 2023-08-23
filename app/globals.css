@@ -3,12 +3,9 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @apply box-border p-0 m-0
 }
 
 body {
-  width: 100vw;
-  overflow-x: hidden;
+  @apply w-screen overflow-x-hidden
 }

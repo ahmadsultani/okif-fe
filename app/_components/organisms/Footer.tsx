@@ -1,4 +1,4 @@
-import Logo from "../molecules/Logo";
+import Logo from "@molecules/Logo";
 import Image from "next/image";
 import Link from "next/link";
 

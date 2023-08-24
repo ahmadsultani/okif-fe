@@ -31,7 +31,9 @@ export default function ProkerCard(props: ProkerCardProps) {
         }}
       />
       <div className="absolute flex flex-col justify-end w-full h-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,1)] p-8 gap-2">
-        <span className={`${fontsize} ${weight} text-secondary-white`}>
+        <span
+          className={`${fontsize} ${weight} text-secondary-white line-clamp-1`}
+        >
           {title}
         </span>
         <p className="text-l text-secondary-white line-clamp-1">

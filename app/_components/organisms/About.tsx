@@ -2,22 +2,22 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="w-full flex gap-8 px-16 py-12">
+    <section className="w-full flex gap-8 pt-[72px] pb-12 px-16">
       <Image
         src="/image/about.webp"
-        width={519}
-        height={640}
+        width={640}
+        height={416}
         alt="about-image"
       />
-      <section className="flex flex-1 flex-col gap-8 text-justify tracking-[0.05em]">
+      <section className="flex flex-1 flex-col gap-8 text-justify">
         <h1 className="font-bold text-heading-l">Mengenal OKIF FT-UH</h1>
-        <p className="font-medium text-heading-m">
+        <p className="font-medium text-heading-s">
           OKIF FT-UH adalah organisasi kemahasiswaan non-struktural di
           Departemen Teknik Informatika intra Universitas Hasanuddin yang
           berstatus otonom dan secara struktural merupakan bagian dari OKFT-UH
           yang mengacu pada bagan struktur OKFT-UH.
         </p>
-        <p className="font-medium text-heading-m">
+        <p className="font-medium text-heading-s">
           OKIF FT-UH bertujuan sebagai sarana peningkatan kualitas ketakwaan
           kepada Tuhan Yang Maha Esa, yang berasaskan nilai-nilai luhur
           pancasila demi terwujudnya cita-cita bangsa dengan mengembangkan

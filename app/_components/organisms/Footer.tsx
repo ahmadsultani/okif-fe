@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-darker flex p-[72px_172px] text-white flex-col w-screen gap-16">
+    <footer className="bg-primary-darker flex p-[72px_64px] text-white flex-col w-screen gap-16">
       <main className="flex justify-between items-start">
         <section className="flex flex-col gap-8 text-xs">
           <Logo variant={"white"} />

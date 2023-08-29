@@ -13,6 +13,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "OKIF FT-UH",
   description: "OKIF FT-UH Website Made by Coder Institute HMIF FT-UH",
+  icons: {
+    icon: "/icon/Okif.svg",
+  },
 };
 
 export default function RootLayout({

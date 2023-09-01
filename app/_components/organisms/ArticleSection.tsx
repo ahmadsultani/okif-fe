@@ -2,7 +2,7 @@ import ArticleCard from "@molecules/ArticleCard";
 
 const ArticleSection = () => {
   return (
-    <main className="flex flex-col gap-8 w-screen px-16 py-12">
+    <main className="flex w-screen flex-col gap-8 px-16 py-12">
       <section className="flex items-center justify-between">
         <h1 className=" text-heading-l font-bold">Artikel</h1>
         <p className=" text-heading-m font-medium text-neutral-normal-active hover:text-neutral-normal-hover">

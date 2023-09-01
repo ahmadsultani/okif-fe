@@ -9,8 +9,8 @@ interface ArticleCardProps {
 const ArticleCard = (props: ArticleCardProps) => {
   const { date, title, description } = props;
   return (
-    <main className="relative rounded-lg overflow-hidden">
-      <section className="w-[440px] h-[603px]">
+    <main className="relative overflow-hidden rounded-lg">
+      <section className="h-[603px]">
         <Image
           fill
           src="/image/code.webp"
@@ -21,13 +21,13 @@ const ArticleCard = (props: ArticleCardProps) => {
           }}
           alt={title}
         />
-        <header className=" absolute flex flex-col justify-end gap-2 w-full h-full px-[19px] py-8 bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.5)] text-secondary-white">
+        <header className=" absolute flex h-full w-full flex-col justify-end gap-2 bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.5)] px-[19px] py-8 text-secondary-white">
           <section className="flex gap-2">
             <Image src="/icon/date.svg" width={13} height={13} alt="date" />
             <p className=" text-text-m">{date}</p>
           </section>
           <h1 className=" text-heading-s font-bold">{title}</h1>
-          <p className=" text-text-l line-clamp-1">{description}</p>
+          <p className=" line-clamp-1 text-text-l">{description}</p>
         </header>
       </section>
     </main>

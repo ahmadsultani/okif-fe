@@ -10,7 +10,7 @@ const ArticleCard = (props: ArticleCardProps) => {
   const { date, title, description } = props;
   return (
     <main className="relative overflow-hidden rounded-lg">
-      <section className="h-[603px]">
+      <section className="h-[400px] lg:h-[603px]">
         <Image
           fill
           src="/image/code.webp"

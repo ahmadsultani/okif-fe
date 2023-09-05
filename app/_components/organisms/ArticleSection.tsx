@@ -2,14 +2,14 @@ import ArticleCard from "@molecules/ArticleCard";
 
 const ArticleSection = () => {
   return (
-    <main className="flex w-screen flex-col gap-8 px-16 py-12">
+    <main className="flex w-screen flex-col gap-8 px-7 py-12 lg:px-16">
       <section className="flex items-center justify-between">
         <h1 className=" text-heading-l font-bold">Artikel</h1>
         <p className=" text-heading-m font-medium text-neutral-normal-active hover:text-neutral-normal-hover">
           Lihat Selengkapnya {"->"}
         </p>
       </section>
-      <section className="grid grid-cols-3 gap-[27px]">
+      <section className="grid gap-[27px] md:grid-cols-2 lg:grid-cols-3">
         <ArticleCard
           date="Sabtu, 18 Maret 2023"
           title="CODE (Community Dedication)"

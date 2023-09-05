@@ -2,8 +2,8 @@ import ProkerCard from "../molecules/ProkerCard";
 
 export default function ProkerSection() {
   return (
-    <main className="flex flex-col w-screen h-fit px-16 py-12 gap-8">
-      <h1 className="text-heading-l text-secondary-black font-bold">
+    <main className="flex h-fit w-screen flex-col gap-8 px-7 py-12 lg:px-16">
+      <h1 className="text-heading-l font-bold text-secondary-black">
         Program Kerja
       </h1>
       <main className="flex flex-col gap-8">
@@ -15,7 +15,7 @@ export default function ProkerSection() {
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam quia culpa exercitationem necessitatibus quibusdam, quaerat labore? Odio a ex sequi, hic maiores minima modi."
           />
         </section>
-        <section className="flex gap-8">
+        <section className="flex flex-col gap-8 lg:flex-row">
           <ProkerCard
             largeSize={false}
             src="/image/placeholder.webp"

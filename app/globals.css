@@ -6,6 +6,19 @@
   @apply box-border p-0 m-0 -tracking-[2.1%]
 }
 
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #004875 34%, #003858 64%);
+  border-radius: 10px;
+}
+
 body {
   @apply w-screen overflow-x-hidden
 }

@@ -10,10 +10,8 @@ const Hero = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1024) {
-        //lg
         setLogoSize(308);
       } else if (window.innerWidth >= 768) {
-        //md
         setLogoSize(231);
       } else {
         setLogoSize(154);

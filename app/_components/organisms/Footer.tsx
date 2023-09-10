@@ -4,19 +4,19 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-darker flex p-[72px_64px] text-white flex-col w-screen gap-16">
-      <main className="flex justify-between items-start">
+    <footer className="flex w-screen flex-col gap-8 bg-primary-darker px-4 py-8 text-white md:px-7 lg:gap-16 lg:p-[72px_64px]">
+      <main className="flex flex-col items-start justify-between gap-8 lg:flex-row">
         <section className="flex flex-col gap-8 text-xs">
           <Logo variant={"white"} />
           <main className="flex flex-col gap-4">
-            <section className="gap-[10px] flex items-start">
-              <Image width={18} height={18} src="/icon/place.svg" alt="" />
+            <section className="flex flex-row items-center gap-[10px]">
+              <Image width={19} height={19} src="/icon/place.svg" alt="" />
               <span className="text-text-s">
                 Gedung Student Center Lt. 1 Fakultas Teknik
                 <br /> Universitas Hasanuddin, Gowa 92171
               </span>
             </section>
-            <section className="gap-[10px] flex items-start">
+            <section className="flex flex-row items-center gap-[10px]">
               <Image
                 width={18}
                 height={18}
@@ -28,7 +28,7 @@ const Footer = () => {
             </section>
           </main>
         </section>
-        <section className="flex flex-col gap-4 items-end">
+        <section className="flex flex-col gap-4 lg:items-end">
           <span className="text-text-l font-bold">
             Unit Kegiatan Mahasiswa Departemen
           </span>
@@ -40,7 +40,7 @@ const Footer = () => {
           </Link>
         </section>
       </main>
-      <section className="flex justify-between font-medium">
+      <section className="flex flex-col-reverse justify-between gap-4 font-medium lg:flex-row">
         <span className="text-text-s font-medium">
           © 2023 Organisasi Kemahasiswaan Informatika FT-UH (OKIF FT-UH)
         </span>

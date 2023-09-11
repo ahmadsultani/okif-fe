@@ -4,7 +4,7 @@ import NavbarItems from "@molecules/NavbarItems";
 
 const Navbar = () => {
   return (
-    <nav className="flex w-screen bg-secondary-white py-4 px-8 justify-between top-0 sticky z-20">
+    <nav className="sticky top-0 z-50 flex w-screen justify-between bg-secondary-white p-4 lg:px-8">
       <Logo variant="primary" />
       <NavbarItems />
     </nav>

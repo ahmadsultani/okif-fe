@@ -7,17 +7,20 @@ import OkifLogo from "@atoms/OkifLogo";
 const Logo = (props: LogoProps) => {
   const textColor =
     props.variant === "primary"
-      ? "primary-darker"
+      ? "text-primary-darker"
       : props.variant === "white"
-      ? "white"
-      : "default";
+      ? "text-white"
+      : "text-default";
   return (
-    <section className="flex gap-4 items-center">
+    <section className="flex items-center gap-2 ">
       <OkifLogo size={48} />
-      <p className={`text-text-s font-bold text-${textColor} `}>
+      <p className={`hidden text-text-s font-bold ${textColor} lg:block`}>
         ORGANISASI KEMAHASISWAAN INFORMATIKA
         <br />
         FAKULTAS TEKNIK - UNIVERSITAS HASANUDDIN
+      </p>
+      <p className={`block text-text-l font-bold lg:hidden ${textColor} `}>
+        OKIF FT-UH
       </p>
     </section>
   );

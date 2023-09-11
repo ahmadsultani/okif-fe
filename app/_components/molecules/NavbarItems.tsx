@@ -23,17 +23,22 @@ const NavbarItems = () => {
          hover:text-primary-normal-hover lg:border-none lg:py-2 ${
            isActive === idx ? "font-bold" : " "
          }`}
-        onClick={() => setIsActive(idx)}
+        onClick={() => handleNavItemClick(idx)}
       >
         {item.text}
       </Link>
     </li>
   ));
 
+  const handleNavItemClick = (idx: number) => {
+    setIsActive(idx);
+    setIsOpen(false);
+  };
+
   return (
-    <ul className="relative flex items-center justify-center gap-4 px-4 py-2">
+    <ul className="flex items-center justify-center gap-4 px-4 py-2">
       <button
-        className="flex h-5 flex-col justify-between px-4 opacity-50 hover:opacity-100 lg:hidden"
+        className="flex h-5 flex-col justify-between px-4 lg:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span
@@ -57,7 +62,7 @@ const NavbarItems = () => {
         ></span>
       </button>
       {isOpen ? (
-        <nav className="absolute right-0 top-full mt-4 h-screen w-screen bg-secondary-white p-10 lg:static lg:mt-0 lg:h-auto lg:w-auto lg:p-0">
+        <nav className="absolute right-0 top-full h-screen w-screen bg-secondary-white p-10 lg:static lg:mt-0 lg:h-auto lg:w-auto lg:p-0">
           <ul className="block lg:flex ">{NavElements}</ul>
         </nav>
       ) : (

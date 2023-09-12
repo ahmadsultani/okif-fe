@@ -7,13 +7,11 @@ import ArticleSection from "@organisms/ArticleSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen w-screen">
-      <Navbar />
+    <main className="flex min-h-screen w-screen flex-col">
       <Hero />
       <About />
       <ProkerSection />
       <ArticleSection />
-      <Footer />
     </main>
   );
 }

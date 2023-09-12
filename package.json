@@ -21,7 +21,6 @@
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-html-parser": "^2.0.2",
     "typescript": "5.1.6"
   },
   "devDependencies": {
@@ -29,6 +28,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-tailwindcss": "^3.13.0",
+    "html-react-parser": "^4.2.2",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.1",
